@@ -1,0 +1,19 @@
+.profile{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  width: 700px;
+  height: 100%;
+
+  .profile-pic{
+    border: 1px solid black;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .name-profile{
+    font-size: x-large;
+    font-weight: bold;
+  }
+}

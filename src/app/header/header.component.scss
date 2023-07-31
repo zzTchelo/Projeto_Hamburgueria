@@ -1,0 +1,51 @@
+.header-bar{
+  background-color: white;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button{
+    outline: none;
+    border: 0px;
+    background-color: black;
+    color: #BF9606;
+    padding: 12px;
+    height: 40px;
+    border-radius: 50px;
+  }
+}
+
+.navigation-bar{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  background-color: #FF4444;
+
+  .list-header{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .list-item{
+    padding: 16px 0px;
+    background-color: #9C0000;
+    font-weight: bolder;
+    text-align: center;
+    width: 25%;
+  }
+
+  .list-item:hover{
+    cursor: pointer;
+    color: #CFCFCF;
+    transition: all .3s ease-in-out;
+    filter: brightness(1.1);
+  }
+
+  .cardapio{
+    color: black;
+  }
+
+
+}
